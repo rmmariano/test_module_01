@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "start": "nodemon --exec babel-node ./src/index.js",
+    "test": "./node_modules/.bin/mocha --compilers js:@babel/register"
   },
   "keywords": [],
   "author": "",
@@ -13,7 +14,13 @@
     "node": ">=11.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.3.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/register": "^7.0.0",
     "chai": "^4.2.0",
-    "mocha": "^6.0.2"
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.10"
   }
 }

@@ -1,26 +1,12 @@
 
 
-// export function helloWorld () {
-//     return 'Hello World';
-// };
+export function helloWorld () {
+    return 'Hello World';
+};
 
-// /**
-//  * Sum two numbers
-//  * @param {a} number
-//  * @param {b} number
-//  * @return {number}
-//  */
-// export function soma (a, b) {
-//     return a + b;
-// };
-
-// export function sub (a, b) {
-//     return a - b;
-// };
-
-// export function displayMyName (name) {
-//     return `Your name is ${name}`;
-// };
+export function displayMyName (name) {
+    return `Your name is ${name}`;
+};
 
 
 

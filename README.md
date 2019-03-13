@@ -1,15 +1,15 @@
-ol3-sidebar
+test
 =========
 
 A small library
 
 ## Installation
 
-  `npm install ol3-sidebar`
+  `npm install @rmmariano/test_module_01`
 
 ## Usage
 
-    var numFormatter = require('@jdaudier/number-formatter');
+    var numFormatter = require('@rmmariano/test_module_01');
 
     var formattedNum = numFormatter(35666);
   

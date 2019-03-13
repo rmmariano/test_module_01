@@ -1,29 +1,15 @@
-var expect = require('chai').expect;
+import { expect } from "chai"
+import sayHello from "../src/index"
 
-import { helloWorld, soma, sub, displayMyName } from '../index.js';
+describe("index test", () => {
+    describe("sayHello function", () => {
+        it("should say Hello guys!", () => {
 
-
-describe('#numFormatter', function() {
-    it('should show hello world', function() {
-        var result = helloWorld();
-        expect(result).to.equal('Hello World');
-    });
-
-    it('should sum numbers', function() {
-        var result = soma(2, 3);
-        expect(result).to.equal(5);
-    });
-
-    it('should sub numbers', function() {
-        var result = sub(2, 3);
-        expect(result).to.equal(-1);
-    });
-
-    it('should display my name', function() {
-        var result = displayMyName('Rod');
-        expect(result).to.equal('Your name is Rod');
-    });
-});
+            const str = sayHello();
+            expect(str).to.equal("Hello guys!")
+        })
+    })
+})
 
 
 // var expect = require('chai').expect;

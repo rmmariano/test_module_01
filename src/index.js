@@ -1,26 +1,56 @@
+// https://dev.to/bnorbertjs/my-nodejs-setup-mocha--chai-babel7-es6-43ei
+
+const sayHello = () => "Hello guys!"
+
+console.log(sayHello())
 
 
-export function helloWorld () {
-    return 'Hello World';
-};
+export default sayHello
 
-/**
- * Sum two numbers
- * @param {a} number
- * @param {b} number
- * @return {number}
- */
-export function soma (a, b) {
-    return a + b;
-};
+// exports.default = sayHello
 
-export function sub (a, b) {
-    return a - b;
-};
 
-export function displayMyName (name) {
-    return `Your name is ${name}`;
-};
+
+// /**
+//  * Sum two numbers
+//  * @param {a} number
+//  * @param {b} number
+//  * @return {number}
+//  */
+// export function soma (a, b) {
+//     return a + b;
+// };
+
+// export function sub (a, b) {
+//     return a - b;
+// };
+
+
+
+
+
+
+// export function helloWorld () {
+//     return 'Hello World';
+// };
+
+// /**
+//  * Sum two numbers
+//  * @param {a} number
+//  * @param {b} number
+//  * @return {number}
+//  */
+// export function soma (a, b) {
+//     return a + b;
+// };
+
+// export function sub (a, b) {
+//     return a - b;
+// };
+
+// export function displayMyName (name) {
+//     return `Your name is ${name}`;
+// };
 
 
 
